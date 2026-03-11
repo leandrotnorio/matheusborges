@@ -1,4 +1,4 @@
-'use client'
+{/*'use client'
 
 import { before } from "node:test";
 import { IoCheckboxSharp } from "react-icons/io5";
@@ -259,6 +259,9 @@ export default function Page() {
       </section>
 
       {/*<SessaoTerceira/>*/}
+
+
+      {/*
 
       <ResultadoAlunos/>
 
@@ -678,3 +681,4 @@ export default function Page() {
     </main>
   )
 }
+*/}
