@@ -223,7 +223,7 @@ export default function Page() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-mist-100 text-white">
       <section className="bg-mist-100 from-neutral-900 via-neutral-950 to-neutral-950">
-        <div className="mx-auto max-w-7xl px-2 mt-44 sm:px-6 lg:px-56 lg:py-4">
+        <div className="mx-auto max-w-7xl px-2 mt-8 sm:mt-8 sm:px-6 lg:px-56 lg:py-4">
           <div className="mx-auto max-w-5xl text-center">
             <p className="mb-4 text-lg font-semibold uppercase tracking-[0.2em] text-neutral-950 hidden">
               Oferta especial por tempo limitado

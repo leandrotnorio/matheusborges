@@ -33,9 +33,6 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://scripts.converteai.net" />
         <link rel="dns-prefetch" href="https://cdn.converteai.net" />
         <link rel="dns-prefetch" href="https://images.converteai.net" />
-
-        <link rel="preload" as="image" href="/thumb.png" />
-
         <link
           rel="preload"
           href="https://scripts.converteai.net/b200f9a4-10ba-473a-80d3-6d314b4a207b/players/69b0875a011455be91e1c0e5/v4/player.js"
