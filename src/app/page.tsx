@@ -212,7 +212,7 @@ function CTAButtons() {
         onClick={handleClick}
         className="cursor-pointer inline-flex rounded-2xl bg-green-600 mx-3 px-3 py-2 md:py-4 md:px-36 text-center shadow-lg shadow-green-800/100 text-base font-bold uppercase tracking-wide text-white transition hover:bg-green-700"
       >
-        Quero adquirir por menos de R$1,27 por dia
+        Quero adquirir por menos de R$0,94 por dia
       </button>
     </div>
   )
@@ -222,12 +222,12 @@ export default function Page() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-mist-100 text-white">
       <section className="bg-mist-100 from-neutral-900 via-neutral-950 to-neutral-950">
-        <div className="mx-auto max-w-7xl px-2 py-12 sm:px-6 lg:px-56 lg:py-4">
+        <div className="mx-auto max-w-7xl px-2 mt-34 sm:px-6 lg:px-56 lg:py-4">
           <div className="mx-auto max-w-5xl text-center">
             <p className="mb-4 text-lg font-semibold uppercase tracking-[0.2em] text-neutral-950 hidden">
               Oferta especial por tempo limitado
             </p>
-            <h1 className="text-[22px] mx-1 font-extrabold font-leading-tight tracking-tight text-neutral-700 sm:text-4xl lg:text-4xl">
+            <h1 className="text-[23px] mx-1 font-extrabold font-leading-tight tracking-tight text-neutral-700 sm:text-4xl lg:text-4xl">
               SOMENTE ESTA SEMANA VOCÊ LEVA 4 ACESSOS EXCLUSIVOS, PELO PREÇO DE 1
             </h1>
             
