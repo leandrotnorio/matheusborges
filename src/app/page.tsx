@@ -3,6 +3,7 @@
 import { before } from "node:test";
 import { IoCheckboxSharp } from "react-icons/io5";
 import VideoComPlayCentral from "@/componentsClient/VideoComPlayCentral";
+import ItemsProdutos from "@/componentsServer/ItemsProdutos";
 import SessaoTerceira from "@/componentsClient/SessaoTerceira";
 import ResultadoAlunos from "@/componentsClient/ResultadoAlunos";
 import SwiperAlunos from "@/componentsClient/SwiperAlunos";
@@ -240,23 +241,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="mx-auto md:mt-16 bg-mist-100 py-6 sm:px-8 lg:px-96">
-        <SectionTitle
-          title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..."
-        />
-
-        <div className="mt-12 mx-10 grid md:grid-cols-1">
-          {offerItems.map((item) => (
-            <div key={item.title} className="flex items-start gap-2 border-b border-neutral-400 bg-white p-2 text-lg text-neutral-800">
-              <span className="font-semibold"><IoCheckboxSharp className="h-8 w-8 text-green-500"/></span>
-              <div className="flex flex-wrap gap-1">
-                <h3 className="font-extrabold text-2xl">{item.title}</h3>
-                <p className="text-xl font-bold text-neutral-600">{item.description}<span className="text-2xl font-extrabold text-red-700 line-through">{item.beforePrice}</span><span className="text-xl font-bold text-neutral-600"> Por </span><span className="text-2xl font-black text-black">{item.price}</span></p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      <ItemsProdutos />
 
       {/*<SessaoTerceira/>*/}
 
