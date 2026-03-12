@@ -38,6 +38,8 @@ export default function RootLayout({
           href="https://scripts.converteai.net/b200f9a4-10ba-473a-80d3-6d314b4a207b/players/69b0875a011455be91e1c0e5/v4/player.js"
           as="script"
         />
+        <link rel="preload" href="https://cdn.converteai.net/b200f9a4-10ba-473a-80d3-6d314b4a207b/69b1e3ee005f4e6dada6114a/main.m3u8" as="fetch"></link>
+        
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-[#111111] text-white antialiased`}
@@ -47,3 +49,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+
