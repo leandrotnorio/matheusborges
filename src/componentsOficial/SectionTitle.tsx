@@ -2,15 +2,9 @@ import type { ReactNode } from "react";
 
 type SectionTitleProps = {
   eyebrow?: string;
-  title: ReactNode;
-  subtitle?: ReactNode;
 };
 
-export default function SectionTitle({
-  eyebrow,
-  title,
-  subtitle,
-}: SectionTitleProps) {
+export default function SectionTitle({ eyebrow }: SectionTitleProps) {
   return (
     <div className="max-w-4xl text-center">
       {eyebrow ? (
@@ -19,15 +13,19 @@ export default function SectionTitle({
         </p>
       ) : null}
 
-      <h2 className="mx-4 text-xl font-extrabold leading-tight tracking-tight text-neutral-800 sm:text-3xl md:text-4xl">
-        {title}
-      </h2>
+      <h1 className="mx-4 text-xl font-extrabold leading-tight tracking-tight text-neutral-800 sm:text-3xl md:text-4xl">
+        REVELEI O SISTEMA QUE ME{" "}
+        <span className="text-green-600">
+          PAGA DE 300 A 1000 REAIS POR DIA
+        </span>{" "}
+        100% NO AUTOMÁTICO
+      </h1>
 
-      {subtitle ? (
-        <p className="my-4 mx-3 font-bold text-neutral-700 text-sm sm:text-lg md:text-2xl">
-          {subtitle}
-        </p>
-      ) : null}
+      <p className="my-4 mx-3 font-bold text-neutral-700 text-sm sm:text-lg md:text-2xl">
+        Gerando renda já nas{" "}
+        <span className="text-green-600">próximas 24 horas</span>{" "}
+        sem aparecer, sem produzir conteúdo
+      </p>
     </div>
   );
 }
