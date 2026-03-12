@@ -1,12 +1,12 @@
 import { IoCheckboxSharp } from "react-icons/io5";
 
-type ItemProductsProps = {
+type ItemProductProps = {
   eyebrow?: string;
   title: string;
   subtitle?: string;
 };
 
-function ItemProducts({ eyebrow, title, subtitle }: ItemProductsProps) {
+function ItemProduct({ eyebrow, title, subtitle }: ItemProductProps) {
   return (
     <div className="mx-auto max-w-4xl text-center">
       {eyebrow ? (
@@ -64,11 +64,11 @@ const offerItems: OfferItem[] = [
   },
 ];
 
-export default function ItemProduct() {
+export default function ItemProducts() {
   return (
     <section className="mx-auto w-full bg-white py-6 sm:px-6 md:py-14 lg:px-8">
       <div className="mx-auto max-w-5xl">
-        <ItemProducts title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..." />
+        <ItemProduct title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..." />
 
         <div className="px-4 mt-10 grid grid-cols-1">
           {offerItems.map((item) => (
