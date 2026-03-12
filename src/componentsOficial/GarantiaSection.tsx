@@ -2,22 +2,22 @@ import Image from "next/image";
 
 export default function GarantiaSection() {
   return (
-    <section className="w-full bg-white px-4 py-10 sm:px-6 md:px-14 lg:px-8">
+    <section className="w-full bg-white px-2 sm:px-6 md:px-14 lg:px-8">
       <div className="mx-auto max-w-5xl">
-        <div className="grid items-center gap-6 rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm md:grid-cols-2 md:p-6">
+        <div className="grid items-center gap-4 bg-white p-4 md:grid-cols-2 md:p-6">
           <div className="flex justify-center">
             <Image
               src="https://matheus-borges.com/wp-content/uploads/2025/04/satisfacao.png"
               alt="Garantia de satisfação"
-              width={540}
-              height={452}
-              className="h-auto w-full max-w-[540px] object-contain"
+              width={200}
+              height={300}
+              className="object-contain"
               unoptimized
             />
           </div>
 
           <div className="text-start">
-            <h3 className="text-lg font-bold leading-7 text-neutral-800 sm:text-xl md:text-2xl">
+            <h3 className="text-[16px] font-bold leading-6 text-neutral-800 sm:text-xl md:text-2xl">
               Sim, você tem{" "}
               <span className="font-extrabold text-green-600">
                 7 dias de garantia incondicional

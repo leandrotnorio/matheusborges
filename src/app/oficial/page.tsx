@@ -43,7 +43,9 @@ import GarantiaSection from "@/componentsOficial/GarantiaSection";
                         }
                     />
                     <VideoComPlayCentral />
+                    <div className="mx-3">
                     <CtaButton />
+                    </div>
                     <PoupeSection />
                     <QuemSouEu/>
                     <ResultSection />

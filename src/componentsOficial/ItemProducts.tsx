@@ -1,12 +1,12 @@
 import { IoCheckboxSharp } from "react-icons/io5";
 
-type SectionTitleProps = {
+type ItemProductsProps = {
   eyebrow?: string;
   title: string;
   subtitle?: string;
 };
 
-function SectionTitle({ eyebrow, title, subtitle }: SectionTitleProps) {
+function ItemProducts({ eyebrow, title, subtitle }: ItemProductsProps) {
   return (
     <div className="mx-auto max-w-4xl text-center">
       {eyebrow ? (
@@ -64,17 +64,17 @@ const offerItems: OfferItem[] = [
   },
 ];
 
-export default function SessaoSecundaria() {
+export default function ItemProduct() {
   return (
-    <section className="mx-auto w-full bg-mist-100 py-10 sm:px-6 md:py-14 lg:px-8">
+    <section className="mx-auto w-full bg-white py-6 sm:px-6 md:py-14 lg:px-8">
       <div className="mx-auto max-w-5xl">
-        <SectionTitle title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..." />
+        <ItemProducts title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..." />
 
         <div className="px-4 mt-10 grid grid-cols-1">
           {offerItems.map((item) => (
             <div
               key={item.title}
-              className="flex items-start gap-3 border-b border-neutral-300 bg-white p-4 text-neutral-800 shadow-sm"
+              className="flex items-start gap-2 border-b border-neutral-300 bg-mist-100 p-4 text-neutral-800 shadow-sm"
             >
               <span className="shrink-0">
                 <IoCheckboxSharp className="h-7 w-7 text-green-500 sm:h-8 sm:w-8" />
@@ -85,13 +85,13 @@ export default function SessaoSecundaria() {
                   {item.title}
                 </h3>
 
-                <p className="mt-1 text-lg text-start leading-6 text-neutral-600 sm:text-base md:text-lg">
+                <p className="mt-1 text-[16px] text-start leading-4 text-neutral-600 sm:text-base md:text-lg">
                   {item.description}
                 </p>
 
                 {item.beforePrice && !item.price ? (
-                  <p className="mt-2 text-lg text-start font-semibold sm:text-base md:text-lg">
-                    <span className="font-extrabold text-red-700">
+                  <p className=" text-lg text-start font-semibold sm:text-base md:text-lg">
+                    <span className="font-extrabold line-through text-red-700">
                       {item.beforePrice}
                     </span>
                   </p>
@@ -100,7 +100,7 @@ export default function SessaoSecundaria() {
                 {item.beforePrice && item.price ? (
                   <p className="mt-2 text-sm font-semibold sm:text-base md:text-lg">
                     <span className="text-neutral-600">De </span>
-                    <span className="font-extrabold text-red-700 line-through">
+                    <span className="font-extrabold line-through text-red-700 line-through">
                       {item.beforePrice}
                     </span>
                     <span className="text-neutral-600"> por </span>
@@ -113,8 +113,8 @@ export default function SessaoSecundaria() {
             </div>
           ))}
 
-          <div className="bg-white p-4 text-neutral-800 shadow-sm">
-            <div className="pt-6">
+          <div className="bg-mist-100 p-4 text-neutral-800 shadow-sm">
+            <div className="pt-3">
               <div className="text-center">
                 <h3 className="text-[23px] font-bold text-neutral-900 sm:text-3xl">
                   total:{" "}

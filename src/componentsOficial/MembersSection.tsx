@@ -24,7 +24,7 @@ export default function MembersSection() {
   return (
       <section
         id="aparecer7"
-        className="w-full bg-white px-3 py-12 sm:px-4 md:px-6 md:py-20"
+        className="w-full bg-mist-100 px-3 py-12 sm:px-4 md:px-6 md:py-20"
       >
         <div className="mx-auto max-w-5xl">
           <div className="space-y-6 text-center">

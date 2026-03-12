@@ -34,7 +34,7 @@ export default function ResultsSection() {
   return (
     <section
       id="aparecer4"
-      className="w-full bg-white py-12 sm:px-4 md:px-6 md:py-20"
+      className="w-full bg-mist-100 py-12 sm:px-4 md:px-6 md:py-20"
     >
       <div className="mx-auto max-w-5xl">
         <div className="flex flex-col gap-8">
@@ -48,7 +48,7 @@ export default function ResultsSection() {
             </h3>
           </div>
 
-          <div className="overflow-hidden rounded-2xl border border-neutral-200 shadow-sm">
+          <div className="overflow-hidden rounded-2xl border border-neutral-200 mx-3 shadow-sm">
             <Image
               src="https://matheus-borges.com/wp-content/uploads/2025/04/Print-2.jpeg"
               alt="Resultado de faturamento"
@@ -59,7 +59,7 @@ export default function ResultsSection() {
             />
           </div>
 
-          <div className="space-y-5 text-[16px] leading-6 text-neutral-800 sm:text-base md:text-lg md:leading-7">
+          <div className="space-y-5 text-[16px] px-3 leading-6 text-neutral-800 sm:text-base md:text-lg md:leading-7">
             <p>
               Atualmente, possuo vários <strong>negócios</strong> na internet.
               Como você pode ver acima, alguns deles fazem até mais de{" "}

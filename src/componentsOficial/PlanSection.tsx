@@ -8,7 +8,7 @@ export default function PlanSection() {
     >
       <div className="mx-auto max-w-5xl">
         <div className="ml-2 space-y-8 text-center">
-          <h2 className="text-[23px] mr-21 text-start font-extrabold uppercase leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
+          <h2 className="text-[23px] mr-21 text-start font-extrabold uppercase leading-6 text-neutral-900 sm:text-2xl md:text-4xl">
             SIGA UM PLANO{" "}
             <span className="text-green-600">COMPROVADO</span> E A PROVA DE{" "}
             <span className="inline-block rounded bg-red-700 px-2 py-1 text-white">
@@ -16,7 +16,7 @@ export default function PlanSection() {
             </span>
           </h2>
 
-          <div className="space-y-5 text-start text-lg leading-6 text-neutral-700 sm:text-base md:text-lg md:leading-7">
+          <div className="space-y-5 text-start text-[16px] leading-5 text-neutral-800 sm:text-base md:text-lg md:leading-7">
             <p>
               O Máquina de Vendas Online 3.0 é uma metodologia de vendas simples
               e eficaz que pode ser aplicada por qualquer um para vender
@@ -41,7 +41,7 @@ export default function PlanSection() {
             </p>
           </div>
 
-          <h3 className="text-2xl font-extrabold leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
+          <h3 className="text-2xl font-extrabold leading-6 text-neutral-900 sm:text-2xl md:text-4xl">
             EM QUANTO TEMPO VOCÊ TERÁ{" "}
             <span className="inline-block rounded bg-green-600 px-2 py-1 text-white">
               RESULTADOS
@@ -49,7 +49,7 @@ export default function PlanSection() {
             ?
           </h3>
 
-          <p className="mx-auto max-w-3xl text-lg leading-6 text-neutral-700 sm:text-base md:text-lg md:leading-7">
+          <p className="mx-auto max-w-3xl text-[16px] leading-5 text-neutral-800 sm:text-base md:text-lg md:leading-7">
             Essa é uma pergunta relativa e gosto sempre de manter transparência
             acima de tudo. Por isso, ao invés de responder com minhas palavras,
             deixarei abaixo a prova de que os alunos têm resultados já nos

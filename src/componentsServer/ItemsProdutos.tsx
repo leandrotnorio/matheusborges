@@ -54,7 +54,7 @@ export default function ItemsProdutos(){
             <div key={item.title} className="flex items-start gap-2 border-b border-neutral-400 bg-white p-2 text-lg text-neutral-800">
               <span className="font-semibold"><IoCheckboxSharp className="h-8 w-8 text-green-500"/></span>
               <div className="flex flex-wrap gap-1">
-                <h3 className="font-extrabold text-2xl">{item.title}</h3>
+                <h3 className="font-extrabold text-neutral-700 text-2xl">{item.title}</h3>
                 <p className="text-xl font-bold text-neutral-600">{item.description}<span className="text-2xl font-extrabold text-red-700 line-through">{item.beforePrice}</span><span className="text-xl font-bold text-neutral-600"> Por </span><span className="text-2xl font-black text-black">{item.price}</span></p>
               </div>
             </div>
