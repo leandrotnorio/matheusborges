@@ -32,8 +32,8 @@ import { useEffect, useState } from "react";
     return (
         <main className="min-h-screen overflow-x-hidden text-white">
             <section className="bg-white from-neutral-900 via-neutral-950 to-neutral-950">
-                <div className="mx-auto pt-24 sm:px-6 lg:px-36 lg:pt-24">
-                    <div className="mx-auto max-w-5xl text-center">
+                <div className="mx-auto pt-24 lg:pt-24">
+                    <div className="mx-auto text-center">
                     <SectionTitle/>
                     <VideoComPlayCentral />
                     {isReleased && (

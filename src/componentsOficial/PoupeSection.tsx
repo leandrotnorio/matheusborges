@@ -44,9 +44,9 @@ export default function LeiaParaPouparSection() {
   return (
     <section
       id="aparecer2"
-      className="w-full mt-20 bg-mist-100 px-4 py-8 sm:px-6 md:px-14 lg:px-8"
+      className="w-full mt-20 bg-mist-100 px-8 py-8 sm:px-6 md:px-14 lg:px-8"
     >
-      <div className="mx-auto max-w-5xl">
+      <div className="mx-auto lg:mx-56">
         <div className="space-y-6">
           <div className="space-y-2 text-center">
             <h2 className="text-[23px] uppercase font-extrabold  text-neutral-900 sm:text-3xl md:text-4xl">
