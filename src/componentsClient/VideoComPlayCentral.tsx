@@ -13,8 +13,8 @@ export default function VideoComPlayCentral() {
 
   return (
     
-    <div className="mt-3 mx-2">
-      <div className="relative mx-auto aspect-video w-full max-w-4xl overflow-hidden bg-mist-300">
+    <div className="mt-3">
+      <div className="relative mx-auto aspect-video w-full overflow-hidden bg-mist-300">
         <vturb-smartplayer
           id="vid-69b1a135de82d6df46fd3944"
           style={{
@@ -30,7 +30,7 @@ export default function VideoComPlayCentral() {
           strategy="afterInteractive"
         />
       </div>
-      <div className="text-[15px] md:text-lg text-neutral-700 text-center mx-19 my-4">
+      <div className="text-[15px] md:text-xl text-neutral-700 text-center mx-19 my-4 mb-10">
         <p><strong>Detalhe:</strong> Mesmo que esteja começando do zero, sem aparecer, e sem investir.</p>
         
       </div>

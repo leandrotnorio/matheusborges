@@ -6,14 +6,14 @@ type SectionTitleProps = {
 
 export default function SectionTitle({ eyebrow }: SectionTitleProps) {
   return (
-    <div className="max-w-4xl text-center">
+    <div className="mx-auto text-center">
       {eyebrow ? (
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-neutral-700">
           {eyebrow}
         </p>
       ) : null}
 
-      <h1 className="mx-4 text-xl font-extrabold leading-tight tracking-tight text-neutral-800 sm:text-3xl md:text-4xl">
+      <h1 className="text-xl font-extrabold leading-tight tracking-tight text-neutral-800 md:mx-9 sm:text-2xl md:text-3xl">
         REVELEI O SISTEMA QUE ME{" "}
         <span className="text-green-600">
           PAGA DE 300 A 1000 REAIS POR DIA
@@ -21,7 +21,7 @@ export default function SectionTitle({ eyebrow }: SectionTitleProps) {
         100% NO AUTOMÁTICO
       </h1>
 
-      <p className="my-4 mx-3 font-bold text-neutral-700 text-sm sm:text-lg md:text-2xl">
+      <p className="my-4 font-bold text-neutral-700 text-sm sm:text-lg md:text-2xl">
         Gerando renda já nas{" "}
         <span className="text-green-600">próximas 24 horas</span>{" "}
         sem aparecer, sem produzir conteúdo
