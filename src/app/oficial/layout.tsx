@@ -46,7 +46,7 @@ export default function RootLayout({
       >
         {children}
         
-      {/*<Script id="meta-pixel" strategy="afterInteractive">
+      <Script id="meta-pixel" strategy="afterInteractive">
         {`
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -63,11 +63,8 @@ export default function RootLayout({
       <noscript><img height="1" width="1" style={{display:"none"}}
       src="https://www.facebook.com/tr?id=1624802691854105&ev=PageView&noscript=1"
       /></noscript>
-      */}
 
       </body>
     </html>
   );
 }
-
-
