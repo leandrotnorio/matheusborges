@@ -6,14 +6,14 @@ type SectionTitleProps = {
 
 export default function SectionTitle({ eyebrow }: SectionTitleProps) {
   return (
-    <div className="mx-auto text-center">
+    <div className="mx-auto text-center lg:mx-86">
       {eyebrow ? (
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-neutral-700">
           {eyebrow}
         </p>
       ) : null}
 
-      <h1 className="text-xl font-extrabold leading-tight tracking-tight text-neutral-800 md:mx-9 sm:text-2xl md:text-3xl">
+      <h1 className="text-xl font-extrabold leading-tight tracking-tight text-neutral-700 mx-3 sm:text-2xl md:text-3xl">
         REVELEI O SISTEMA QUE ME{" "}
         <span className="text-green-600">
           PAGA DE 300 A 1000 REAIS POR DIA
