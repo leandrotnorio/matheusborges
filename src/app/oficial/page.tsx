@@ -24,13 +24,13 @@ import { useEffect, useState } from "react";
             useEffect(() => {
                 const timer = setTimeout(() => {
                 setIsReleased(true);
-                }, 30000);
+                }, 440000);
 
                 return () => clearTimeout(timer);
             }, []);
 
     return (
-        <main className="min-h-screen overflow-x-hidden bg-mist-100 text-white">
+        <main className="min-h-screen overflow-x-hidden text-white">
             <section className="bg-white from-neutral-900 via-neutral-950 to-neutral-950">
                 <div className="mx-auto max-w-7xl pt-24 sm:px-6 lg:px-56 lg:pt-24">
                     <div className="mx-auto max-w-5xl text-center">
