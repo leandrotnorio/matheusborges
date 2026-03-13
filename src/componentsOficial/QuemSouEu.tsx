@@ -7,8 +7,8 @@ export default function QuemSouEuSection() {
       className="w-full bg-white px-4 py-10 sm:px-6 md:px-14 lg:px-8"
     >
       <div className="mx-auto max-w-5xl">
-        <div className="overflow-hidden mx-2 bg-mist-100 shadow-sm">
-          <div className="flex flex-col">
+        <div className="overflow-hidden bg-mist-100 shadow-sm">
+          <div className="flex flex-col mx-8">
             <div className="w-full">
               <Image
                 src="https://matheus-borges.com/wp-content/uploads/2025/04/Quem-sou22-1.png"
@@ -21,12 +21,12 @@ export default function QuemSouEuSection() {
               />
             </div>
 
-            <div className="p-4 sm:p-6 md:p-8">
+            <div className="p-4 sm:p-6 md:p-8 text-start">
               <h3 className="text-[23px] font-extrabold uppercase tracking-tight text-neutral-900 sm:text-3xl md:text-4xl">
                 QUEM SOU EU?
               </h3>
 
-              <div className="mt-4 space-y-5 text-[16px] text-start leading-6 text-neutral-800 sm:text-base md:text-lg md:leading-7">
+              <div className="mt-4 space-y-5 text-[16px] leading-6 text-neutral-800 sm:text-base md:text-lg md:leading-7">
                 <p>
                   Me chamo Matheus (<strong>@matheus.borges</strong>) e tenho 25
                   anos… Se você assistiu ao vídeo, te provei que vim de família de
