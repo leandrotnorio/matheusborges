@@ -30,7 +30,7 @@ export default function VideoComPlayCentral() {
           strategy="afterInteractive"
         />
       </div>
-      <div className="text-[16px] md:text-2xl text-neutral-700 text-center mx-17 my-4">
+      <div className="text-[16px] md:text-2xl text-neutral-700 text-center mx-14 my-4">
         <p><strong>Detalhe:</strong> Mesmo que esteja começando do zero, sem aparecer e sem investir.</p>
         
       </div>
