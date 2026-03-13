@@ -22,12 +22,12 @@ export default function BonusSection() {
   return (
     <section
       id="aparecer8"
-      className="w-full bg-white py-16"
+      className="mx-auto w-full bg-white py-16"
     >
-      <div className="mx-8 max-w-[1140px]">
-        <div className="mx-auto flex max-w-[1140px] flex-col">
-          <div className="w-full">
-            <h2 className="mb-10 text-start text-[22px] uppercase font-extrabold leading-tight text-neutral-800 md:text-4xl">
+      <div className="lg:mx-76">
+        <div className="mx-auto flex flex-col">
+          <div className="w-full text-start">
+            <h2 className="mb-10 text-start text-[22px] uppercase font-extrabold leading-tight text-neutral-800 md:text-3xl">
               e o que mais você leva de bônus?
             </h2>
           </div>

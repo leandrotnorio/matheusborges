@@ -8,14 +8,14 @@ type ItemProductProps = {
 
 function ItemProduct({ eyebrow, title, subtitle }: ItemProductProps) {
   return (
-    <div className="mx-auto max-w-4xl text-center">
+    <div className="mx-auto max-w-5xl text-center">
       {eyebrow ? (
         <p className="mb-3 text-lg font-semibold uppercase tracking-[0.2em] text-neutral-700">
           {eyebrow}
         </p>
       ) : null}
 
-      <h2 className="text-[22px] font-extrabold leading-tight tracking-tight text-neutral-800 sm:text-3xl md:text-4xl">
+      <h2 className="text-start text-[19px] font-extrabold leading-tight tracking-tight text-neutral-800 sm:text-3xl md:text-4xl">
         {title}
       </h2>
 
@@ -67,7 +67,7 @@ const offerItems: OfferItem[] = [
 export default function ItemProducts() {
   return (
     <section className="mx-auto w-full bg-white py-6 sm:px-6 md:py-14 lg:px-8">
-      <div className="mx-8 max-w-5xl">
+      <div className="mx-56">
         <ItemProduct title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..." />
 
         <div className="px-4 mt-10 grid grid-cols-1">
@@ -81,7 +81,7 @@ export default function ItemProducts() {
               </span>
 
               <div className="min-w-0">
-                <h3 className="text-xl text-start font-extrabold leading-tight text-neutral-900 sm:text-xl md:text-2xl">
+                <h3 className="text-xl text-start font-extrabold leading-tight text-neutral-900 sm:text-xl md:text-xl">
                   {item.title}
                 </h3>
 
