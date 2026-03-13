@@ -45,7 +45,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} bg-[#111111] text-white antialiased`}
       >
         {children}
-        
+      <script src="https://echo.ticto.app/ticto-echo.min.js"></script>  
       {/*<Script id="meta-pixel" strategy="afterInteractive">
         {`
         !function(f,b,e,v,n,t,s)

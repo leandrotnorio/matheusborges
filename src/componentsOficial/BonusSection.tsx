@@ -1,69 +1,60 @@
-import Image from "next/image";
-import { CheckCircle2 } from "lucide-react";
+import { FaTelegramPlane } from "react-icons/fa";
+import { MdOutlineHub } from "react-icons/md";
 
-type BonusItem = {
-  title: string;
-  description: string;
-};
+export default function BonusSection() {
+  const items = [
+    {
+      id: 1,
+      icon: <FaTelegramPlane className="h-12 w-12 text-sky-500" />,
+      title: "Grupo privado no Telegram",
+      description:
+        "Você terá acesso a um grupo VIP no telegram, para trocar network e tirar suas dúvidas!",
+    },
+    {
+      id: 2,
+      icon: <MdOutlineHub className="h-12 w-12 text-rose-400" />,
+      title: "Afiliação Vitalícia",
+      description:
+        "Você terá acesso vitalício a produtos ocultos que vendem muito!",
+    },
+  ];
 
-const bonusItems: BonusItem[] = [
-  {
-    title: "Grupo privado no Telegram",
-    description:
-      "Você terá acesso a um grupo VIP no Telegram para trocar network e tirar suas dúvidas.",
-  },
-  {
-    title: "Bônus 02",
-    description: "Descrição do bônus aqui.",
-  },
-  {
-    title: "Bônus 03",
-    description: "Descrição do bônus aqui.",
-  },
-];
-
-export default function OfferBonusSection() {
   return (
-    <>
     <section
-        id="aparecer8"
-        className="w-full bg-white px-3 pb-12 sm:px-4 md:px-6 md:pb-20"
-      >
-        <div className="mx-auto max-w-5xl">
-          <div className="rounded-3xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm sm:p-8 md:p-10">
-            <div className="space-y-8">
-              <div className="text-center">
-                <h2 className="text-xl font-extrabold leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
-                  E o que mais você leva de bônus?
-                </h2>
-              </div>
+      id="aparecer8"
+      className="w-full bg-white py-16"
+    >
+      <div className="mx-8 max-w-[1140px]">
+        <div className="mx-auto flex max-w-[1140px] flex-col">
+          <div className="w-full">
+            <h2 className="mb-10 text-start text-[22px] uppercase font-extrabold leading-tight text-neutral-800 md:text-4xl">
+              e o que mais você leva de bônus?
+            </h2>
+          </div>
 
-              <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-                {bonusItems.map((bonus) => (
-                  <div
-                    key={bonus.title}
-                    className="flex items-start gap-3 rounded-2xl border border-neutral-200 bg-white p-4 shadow-sm"
-                  >
-                    <div className="mt-0.5 shrink-0">
-                      <CheckCircle2 className="h-6 w-6 text-green-600" />
-                    </div>
-
-                    <div className="space-y-1">
-                      <h3 className="text-base font-bold text-neutral-900 sm:text-lg">
-                        {bonus.title}
-                      </h3>
-
-                      <p className="text-sm leading-6 text-neutral-600 sm:text-base">
-                        {bonus.description}
-                      </p>
-                    </div>
+          <div className="grid grid-cols-1 gap-y-10">
+            {items.map((item) => (
+              <div key={item.id} className="w-full bg-mist-100 py-6 px-4">
+                <div className="flex items-start gap-2">
+                  <div className="flex min-w-[64px] justify-center pt-1">
+                    {item.icon}
                   </div>
-                ))}
+
+                  <div className="flex-1">
+                    <h3 className="text-xl text-start font-extrabold leading-tight text-neutral-900 sm:text-xl md:text-lg">
+                      <b>{item.title}</b>
+                    </h3>
+
+                    <p className="mt-2 text-[16px] text-start leading-4 text-neutral-600">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

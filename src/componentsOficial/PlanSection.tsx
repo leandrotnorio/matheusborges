@@ -7,7 +7,7 @@ export default function PlanSection() {
       className="w-full bg-white px-3 py-12 sm:px-4 md:px-6 md:py-20"
     >
       <div className="mx-auto max-w-5xl">
-        <div className="ml-2 space-y-8 text-center">
+        <div className="ml-5 space-y-8 text-center">
           <h2 className="text-[23px] mr-21 text-start font-extrabold uppercase leading-6 text-neutral-900 sm:text-2xl md:text-4xl">
             SIGA UM PLANO{" "}
             <span className="text-green-600">COMPROVADO</span> E A PROVA DE{" "}
@@ -41,7 +41,7 @@ export default function PlanSection() {
             </p>
           </div>
 
-          <h3 className="text-2xl font-extrabold leading-6 text-neutral-900 sm:text-2xl md:text-4xl">
+          <h3 className="text-[23px] text-start font-extrabold leading-6 text-neutral-900 sm:text-2xl md:text-4xl">
             EM QUANTO TEMPO VOCÊ TERÁ{" "}
             <span className="inline-block rounded bg-green-600 px-2 py-1 text-white">
               RESULTADOS
@@ -49,7 +49,7 @@ export default function PlanSection() {
             ?
           </h3>
 
-          <p className="mx-auto max-w-3xl text-[16px] leading-5 text-neutral-800 sm:text-base md:text-lg md:leading-7">
+          <p className="mx-auto max-w-3xl text-[16px] text-start leading-5 text-neutral-800 sm:text-base md:text-lg md:leading-7">
             Essa é uma pergunta relativa e gosto sempre de manter transparência
             acima de tudo. Por isso, ao invés de responder com minhas palavras,
             deixarei abaixo a prova de que os alunos têm resultados já nos

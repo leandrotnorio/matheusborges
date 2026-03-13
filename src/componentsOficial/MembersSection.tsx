@@ -28,7 +28,7 @@ export default function MembersSection() {
       >
         <div className="mx-auto max-w-5xl">
           <div className="space-y-6 text-center">
-            <h2 className="text-[23px] uppercase font-extrabold leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
+            <h2 className="text-[22px] uppercase font-extrabold leading-tight text-neutral-800 sm:text-2xl md:text-4xl">
               Adquira hoje e receba acesso vitalício à nossa área de membros
               premium
             </h2>

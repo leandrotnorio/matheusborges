@@ -88,7 +88,7 @@ export default function OfertaFinalSection() {
             </div>
 
             <div className="flex justify-center">
-              <Link href="https://api.whatsapp.com/send?phone=5574981265336&text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20%22M%C3%A9todo%20M%C3%A1quina%20de%20Vendas%20Online%22%20ou%20preciso%20de%20suporte%20para%20concluir%20minha%20compra">
+              <Link href="https://wa.link/c37o5g">
                 <Image
                   src="https://matheus-borges.com/wp-content/uploads/2025/04/whatsapp.png"
                   alt="Suporte via WhatsApp"

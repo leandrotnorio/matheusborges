@@ -39,11 +39,11 @@ export default function ResultsSection() {
       <div className="mx-auto max-w-5xl">
         <div className="flex flex-col gap-8">
           <div className="space-y-3 text-center">
-            <h2 className="text-[23px] font-extrabold uppercase leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
+            <h2 className="text-[22px] font-extrabold uppercase leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
               Confira um dos meus resultados abaixo:
             </h2>
 
-            <h3 className="text-xl font-bold leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
+            <h3 className="text-lg font-bold leading-tight text-neutral-800 sm:text-2xl md:text-4xl">
               Mais de <span className="text-green-600">R$100.000</span> por dia...
             </h3>
           </div>
@@ -80,7 +80,7 @@ export default function ResultsSection() {
           </div>
 
           <div className="pt-4 bg-mist-100 text-center">
-            <h3 className="text-[23px] font-extrabold uppercase leading-tight text-neutral-900 sm:text-2xl md:text-4xl">
+            <h3 className="text-[22px] font-extrabold uppercase leading-tight text-neutral-800 sm:text-2xl md:text-4xl">
               Confira alguns dos resultados dos alunos:
             </h3>
           
@@ -102,7 +102,7 @@ export default function ResultsSection() {
                     )}
                   </div>
 
-                  <div className="overflow-hidden shadow-sm">
+                  <div className="overflow-hidden mx-4 shadow-sm">
                     <div className="aspect-video w-full">
                       <iframe
                         className="h-full w-full"
