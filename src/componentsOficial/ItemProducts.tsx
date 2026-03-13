@@ -67,7 +67,7 @@ const offerItems: OfferItem[] = [
 export default function ItemProducts() {
   return (
     <section className="mx-auto w-full bg-white py-6 sm:px-6 md:py-14 lg:px-8">
-      <div className="ml-6 lg:mx-56">
+      <div className="ml-4 lg:mx-56">
         <ItemProduct title="ADQUIRA AGORA OU VOCÊ IRÁ IMPLORAR PARA PAGAR MAIS CARO DEPOIS..." />
 
         <div className="px-4 mt-10 grid grid-cols-1">
