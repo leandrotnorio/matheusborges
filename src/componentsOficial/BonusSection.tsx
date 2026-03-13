@@ -24,7 +24,7 @@ export default function BonusSection() {
       id="aparecer8"
       className="mx-auto w-full bg-white py-16"
     >
-      <div className="lg:mx-76">
+      <div className="mx-6 lg:mx-76">
         <div className="mx-auto flex flex-col">
           <div className="w-full text-start">
             <h2 className="mb-10 text-start text-[22px] uppercase font-extrabold leading-tight text-neutral-800 md:text-3xl">
@@ -35,8 +35,8 @@ export default function BonusSection() {
           <div className="grid grid-cols-1 gap-y-10">
             {items.map((item) => (
               <div key={item.id} className="w-full bg-mist-100 py-6 px-4">
-                <div className="flex items-start gap-2">
-                  <div className="flex min-w-[64px] justify-center pt-1">
+                <div className="gap-2">
+                  <div className="flex text-start min-w-[64px] pt-1">
                     {item.icon}
                   </div>
 

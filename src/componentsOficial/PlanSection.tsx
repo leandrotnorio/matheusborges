@@ -49,7 +49,7 @@ export default function PlanSection() {
             ?
           </h3>
 
-          <p className="mx-auto max-w-3xl text-[16px] text-start leading-5 text-neutral-800 sm:text-base md:text-lg md:leading-7">
+          <p className="mx-auto text-[16px] text-start leading-5 text-neutral-800 sm:text-base md:text-lg md:leading-7">
             Essa é uma pergunta relativa e gosto sempre de manter transparência
             acima de tudo. Por isso, ao invés de responder com minhas palavras,
             deixarei abaixo a prova de que os alunos têm resultados já nos
