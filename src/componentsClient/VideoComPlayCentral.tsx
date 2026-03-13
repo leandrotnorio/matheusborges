@@ -13,8 +13,8 @@ export default function VideoComPlayCentral() {
 
   return (
     
-    <div className="mt-3">
-      <div className="relative mx-auto aspect-video w-full overflow-hidden bg-mist-300">
+    <div className="mt-3 mx-3">
+      <div className="relative aspect-video w-full overflow-hidden bg-mist-300">
         <vturb-smartplayer
           id="vid-69b1a135de82d6df46fd3944"
           style={{

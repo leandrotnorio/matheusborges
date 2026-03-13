@@ -24,7 +24,7 @@ import { useEffect, useState } from "react";
             useEffect(() => {
                 const timer = setTimeout(() => {
                 setIsReleased(true);
-                }, 440000);
+                }, 3000);
 
                 return () => clearTimeout(timer);
             }, []);
