@@ -58,7 +58,6 @@ export default function RootLayout({
         'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1624802691854105');
         fbq('track', 'PageView');
-        fbq('track', 'InitiateCheckout');
         `}
       </Script>
       <noscript><img height="1" width="1" style={{display:"none"}}
