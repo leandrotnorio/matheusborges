@@ -64,7 +64,7 @@ export default function RootLayout({
       src="https://www.facebook.com/tr?id=1624802691854105&ev=PageView&noscript=1"
       /></noscript>
       */}
-      <script src="https://echo.ticto.app/ticto-echo.min.js"></script>
+      
 
       </body>
     </html>
