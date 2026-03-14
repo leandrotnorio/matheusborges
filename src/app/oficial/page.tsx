@@ -24,7 +24,7 @@ import { useEffect, useState } from "react";
             useEffect(() => {
                 const timer = setTimeout(() => {
                 setIsReleased(true);
-                }, 1280000); // minutos 21:20s
+                }, 1280000); // 1280000 minutos 21:20s 
 
                 return () => clearTimeout(timer);
             }, []);
