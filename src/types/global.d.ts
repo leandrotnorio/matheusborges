@@ -11,4 +11,14 @@ declare module "react" {
   }
 }
 
+declare global {
+  interface Window {
+    fbq?: (
+      command: "init" | "track" | "trackCustom" | "consent",
+      eventNameOrPixelId: string,
+      parameters?: Record<string, unknown>
+    ) => void;
+  }
+}
+
 export {};
